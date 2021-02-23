@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user
+  cloud:
+    config:
+      uri: http://config.lvlvstart.com:8002
+      label: master
+    bus:
+      id: ${spring.application.name}:${spring.cloud.config.profile}:${random.value}
+  profiles:
+    active: dev

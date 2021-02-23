@@ -1,0 +1,11 @@
+version: '3'
+
+
+services:
+  user:
+    image: user:latest
+  company:
+    image: company:latest
+  gateway:
+    image: gateway:latest
+

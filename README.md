@@ -11,6 +11,7 @@
 | gateway | 80   |
 | company | 8000 |
 | user | 8001   |
+| config | 8002   |
 
 
 
